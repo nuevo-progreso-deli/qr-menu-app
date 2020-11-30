@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 300;
+  src: url(../fonts/Cairo/Cairo-normal-300.ttf) format('truetype'), url(../fonts/Cairo/Cairo-normal-300.woff) format('woff'), url(../fonts/Cairo/Cairo-normal-300.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/Cairo/Cairo-normal-400.eot);
+  src: local('Cairo'), url(../fonts/Cairo/Cairo-normal-400.svg#Cairo) format('svg'), url(../fonts/Cairo/Cairo-normal-400.ttf) format('truetype'), url(../fonts/Cairo/Cairo-normal-400.woff) format('woff'), url(../fonts/Cairo/Cairo-normal-400.woff2) format('woff2'), url(../fonts/Cairo/Cairo-normal-400.eot?#iefix) format('embedded-opentype');
+}
+
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/Cairo/Cairo-normal-700.ttf) format('truetype'), url(../fonts/Cairo/Cairo-normal-700.woff) format('woff'), url(../fonts/Cairo/Cairo-normal-700.woff2) format('woff2');
+}
+
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 900;
+  src: url(../fonts/Cairo/Cairo-normal-900.ttf) format('truetype'), url(../fonts/Cairo/Cairo-normal-900.woff) format('woff'), url(../fonts/Cairo/Cairo-normal-900.woff2) format('woff2');
+}
+

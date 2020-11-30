@@ -1,0 +1,19 @@
+//Bootstrap themes
+$theme-colors: ( 
+    "primary": #689F38, 
+    "secondary": #795548, 
+    "success": #8BC34A, 
+    "info": #BDBDBD, 
+    "warning": #ffce00, 
+    "danger": #f04141, 
+    "light": #DCEDC8, 
+    "dark": #212121
+    );
+
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// Required
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";

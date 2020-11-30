@@ -1,0 +1,28 @@
+@import './theme/bootstrap.scss';
+
+/* You can add global styles to this file, and also import other style files */
+body {
+
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a9db80+0,96c56f+100;Green+3D+%232 */
+    background: rgb(169,219,128); /* Old browsers */
+    background: -moz-linear-gradient(45deg,  rgba(169,219,128,1) 0%, rgba(150,197,111,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg,  rgba(169,219,128,1) 0%,rgba(150,197,111,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg,  rgba(169,219,128,1) 0%,rgba(150,197,111,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a9db80', endColorstr='#96c56f',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+    font-family: Cairo, sans-serif;
+}
+
+.pointer {
+
+    cursor: pointer;
+}
+
+.circulo {
+    width: 150px;
+    height: 150px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #5cb85c;
+}

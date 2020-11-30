@@ -1,0 +1,36 @@
+<div class="menu-client">
+  <div class="row justify-content-center">
+    <div>
+      <img src="assets/images/logo.png" class="circulo"/>
+    </div>
+  </div>
+  <div class="mb-5 mt-5">
+    <tabset>
+      <tab *ngIf="filesPdf.length > 0" heading="PDF" id="tab1" class="mt-5">
+  
+        <div class="pdf-container" *ngFor="let pdf of filesPdf; let i = index" class="mt-5">
+  
+          <accordion>
+            <accordion-group [isOpen]="i === 0" [heading]="pdf.name | cutExtension">
+              <pdf-viewer [src]="pdf.url"
+                          [original-size]="false"
+              ></pdf-viewer>
+            </accordion-group>
+          </accordion>
+  
+        </div>
+  
+      </tab>
+      <tab *ngIf="filesImg.length > 0" heading="IMAGEN" class="mt-5">
+  
+        <div *ngFor="let image of filesImg; let i = index" class="mt-5">
+          <accordion>
+            <accordion-group [isOpen]="i === 0" [heading]="image.name | cutExtension">
+              <img [src]="image.url" class="d-block w-100" [alt]="image.name">            
+            </accordion-group>
+          </accordion>
+        </div>
+      </tab>
+    </tabset>
+  </div>
+</div>
